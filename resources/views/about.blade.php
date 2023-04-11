@@ -150,7 +150,7 @@
         data-appear-animation-delay="300">
         <div class="row pt-5 pb-4 my-5">
             <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-                <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0"
+                <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0" style="direction: ltr"
                     data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 2}, '1200': {'items': 2}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
                     <div>
                         <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/team/team-1.jpg')}}" alt="" />

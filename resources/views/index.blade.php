@@ -159,7 +159,7 @@
             <div class="row mb-5">
                 <div class="col">
 
-                    <div class="owl-carousel owl-theme nav-style-1 stage-margin mb-0 portfolio-img" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 3}, '1200': {'items': 3}}, 'margin': 3, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40}">
+                    <div class="owl-carousel owl-theme nav-style-1 stage-margin mb-0 portfolio-img" style="direction: ltr" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 3}, '1200': {'items': 3}}, 'margin': 3, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40}">
                         <div class="m-3">
                             <div class="hover-effect-3d">
                                 <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
@@ -263,7 +263,7 @@
                     <h2 class="text-color-dark font-weight-normal text-6 mb-2">Our <strong class="font-weight-extra-bold"> Partners</strong></h2>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
                     <div class="row justify-content-center my-5 partners-img">
-                        <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0" data-plugin-options="{'responsive': {'0': {'items': 2}, '768': {'items': 3}, '992': {'items': 6}, '1200': {'items': 6}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
+                        <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0" style="direction: ltr" data-plugin-options="{'responsive': {'0': {'items': 2}, '768': {'items': 3}, '992': {'items': 6}, '1200': {'items': 6}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
                             <div>
                                 <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/team/team-1.jpg')}}" alt="" />
                                 <h3 class="font-weight-bold text-color-dark text-4 mb-0">John Doe</h3>
