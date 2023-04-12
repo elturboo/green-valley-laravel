@@ -139,7 +139,7 @@
                     <img src="{{asset('assets/img/green_valley/2.jpeg')}}"
                         class="img-fluid position-absolute d-none d-sm-block appear-animation"
                         data-appear-animation="expandIn" style="top: -33%; left: -29%;" alt="" />
-                    <img src="{{asset('assets/img/green_valley/3.jpeg')}}" class="img-fluid position-relative appear-animation mb-2"
+                    <img src="{{asset('assets/img/green_valley/5.jpeg')}}" class="img-fluid position-relative appear-animation mb-2"
                         data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" />
                 </div>
             </div>

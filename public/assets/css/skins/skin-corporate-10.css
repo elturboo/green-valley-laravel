@@ -2800,7 +2800,7 @@ html .inverted-light {
 
 .owl-carousel .owl-dots .owl-dot.active span,
 .owl-carousel .owl-dots .owl-dot:hover span {
-	background-color: #0094b3;
+	background-color: #80a36d;
 }
 
 .owl-carousel.show-nav-title .owl-nav button[class*="owl-"],
@@ -6639,7 +6639,21 @@ article.post-large .post-audio {
 }
 
 .partners-img img {
-	height: 100px;
-	width: 100px;
-	object-fit: cover;
+	height: 130px;
+	width: 130px;
+	object-fit: contain;
+}
+.big-slider {
+	height: 100vh !important;
+	
+}
+
+@media (max-width: 767px) {
+	.big-slider {
+		height: 55vh !important;	
+	}
+
+	.big-slider .owl-dots {
+		bottom: -20px !important; 
+	}
 }

@@ -10,12 +10,12 @@
                 <path d="M 0 0.11 L 0 136 L 1920 136 L 1920 1.9 C 1650.0482 79.0955 1327.0648 134 980 134 C 615.6218 134 277.7878 84.5059 0 0.11 Z" fill="#ffffff"/>
             </svg>
         </div>
-        <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-primary nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 6000}" style="height: 100vh;">
+        <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-primary nav-md nav-font-size-md show-nav-hover mb-0 big-slider" data-plugin-options="{'autoplayTimeout': 6000}">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
 
                     <!-- Carousel Slide 1 -->
-                    <div class="owl-item position-relative overlay overlay-show overlay-op-8" style="background-image: url({{asset('assets/img/green_valley/6.jpeg')}}); background-size: cover; background-position: center; height: 100vh;">
+                    <div class="owl-item position-relative overlay overlay-show overlay-op-8" style="background-image: url({{asset('assets/img/green_valley/6.jpeg')}}); background-size: cover; background-position: center;">
                         <div class="container position-relative z-index-3 h-100">
                             <div class="row justify-content-center align-items-center h-100">
                                 <div class="col-lg-6">
@@ -39,7 +39,7 @@
                     </div>
 
                     <!-- Carousel Slide 2 -->
-                    <div class="owl-item position-relative overlay overlay-show overlay-op-9 pt-5" style="background-image: url({{asset('assets/img/green_valley/7.jpeg')}}); background-size: cover; background-position: center; height: 100vh;">
+                    <div class="owl-item position-relative overlay overlay-show overlay-op-9 pt-5" style="background-image: url({{asset('assets/img/green_valley/7.jpeg')}}); background-size: cover; background-position: center;">
                         <div class="container position-relative z-index-3 h-100">
                             <div class="row justify-content-center align-items-center h-100">
                                 <div class="col-lg-7 text-center">
@@ -159,59 +159,83 @@
             <div class="row mb-5">
                 <div class="col">
 
-                    <div class="owl-carousel owl-theme nav-style-1 stage-margin mb-0 portfolio-img" style="direction: ltr" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 3}, '1200': {'items': 3}}, 'margin': 3, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40}">
+                    <div class="owl-carousel owl-theme nav-style-1 stage-margin mb-0 portfolio-img" style="direction: ltr" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 3}, '1200': {'items': 3}}, 'margin': 3, 'loop': true, 'nav': true, 'dots': true, 'stagePadding': 40}">
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/1.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/1.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/2.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/2.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/3.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/3.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/4.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/4.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/5.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/5.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                         <div class="m-3">
                             <div class="hover-effect-3d">
-                                <div class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom rounded-0">
-                                    <div class="thumb-info-wrapper">
-                                        <img src="{{asset('assets/img/green_valley/6.jpeg')}}" class="img-fluid rounded-0 hover-effect-2" alt="">
-                                    </div>
-                                </div>
+                                <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+                                    <span class="thumb-info-wrapper">
+                                        <img src="{{asset('assets/img/green_valley/6.jpeg')}}" class="img-fluid" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Img Title</span>
+                                            <span class="thumb-info-type">Img description</span>
+                                        </span>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -236,7 +260,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="featured-box featured-box-primary mx-5">
+                <div class="featured-box featured-box-primary">
                     <div class="box-content appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
                         <i class="icon-featured icons icon-clock mb-3"></i>
                         <span class="d-block opacity-7 line-height-1">BUSINESS HOURS</span>
@@ -263,16 +287,16 @@
                     <h2 class="text-color-dark font-weight-normal text-6 mb-2">Our <strong class="font-weight-extra-bold"> Partners</strong></h2>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
                     <div class="row justify-content-center my-5 partners-img">
-                        <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0" style="direction: ltr" data-plugin-options="{'responsive': {'0': {'items': 2}, '768': {'items': 3}, '992': {'items': 6}, '1200': {'items': 6}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
+                        <div class="owl-carousel owl-theme nav-style-1 nav-center-images-only stage-margin mb-0" style="direction: ltr" data-plugin-options="{'responsive': {'0': {'items': 2}, '768': {'items': 3}, '992': {'items': 6}, '1200': {'items': 6}}, 'margin': 25, 'loop': false, 'nav': true, 'dots': true, 'stagePadding': 40}">
                             <div>
-                                <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/team/team-1.jpg')}}" alt="" />
-                                <h3 class="font-weight-bold text-color-dark text-4 mb-0">John Doe</h3>
-                                <p class="text-2 mb-0">CEO</p>
+                                <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/logos/1.jpeg')}}" alt="" />
+                                <h3 class="font-weight-bold text-color-dark text-4 mb-0">Fertico</h3>
+                                <p class="text-2 mb-0">India</p>
                             </div>
                             <div>
                                 <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/team/team-1.jpg')}}" alt="" />
-                                <h3 class="font-weight-bold text-color-dark text-4 mb-0">Jessica Doe</h3>
-                                <p class="text-2 mb-0">CEO</p>
+                                <h3 class="font-weight-bold text-color-dark text-4 mb-0">Company Name</h3>
+                                <p class="text-2 mb-0">East Asian</p>
                             </div>
                             <div>
                                 <img class="img-fluid rounded-0 mb-4" src="{{asset('assets/img/team/team-1.jpg')}}" alt="" />

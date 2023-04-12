@@ -25,7 +25,7 @@
 
         <div class="row pb-4 mt-2">
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInRightShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/1.jpeg')}}" class="img-fluid" alt="">
@@ -42,7 +42,7 @@
             </div>
 
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/2.jpeg')}}" class="img-fluid" alt="">
@@ -59,7 +59,7 @@
             </div>
 
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInLeftShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/3.jpeg')}}" class="img-fluid" alt="">
@@ -76,7 +76,7 @@
             </div>
 
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInRightShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/4.jpeg')}}" class="img-fluid" alt="">
@@ -93,7 +93,7 @@
             </div>
 
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/5.jpeg')}}" class="img-fluid" alt="">
@@ -110,7 +110,7 @@
             </div>
 
             <div class="col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInLeftShorter">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
                         <span class="thumb-info-wrapper">
                             <img src="{{asset('assets/img/green_valley/6.jpeg')}}" class="img-fluid" alt="">
